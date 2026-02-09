@@ -10,7 +10,12 @@ public class nacholee {
         n1 = sc.nextInt();
         System.out.println("Inrese el numero 2");
         n2 = sc.nextInt();
-        System.out.println("La suma de los dos numeros es: "+ (n1+n2));
+        System.out.println("La suma de los dos numeros es: "+ SumaNumeros(n1, n2));
 
+    }
+
+    public static int SumaNumeros(int n1, int n2){
+
+    return n1+n2;
     }
 }
